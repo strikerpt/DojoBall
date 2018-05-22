@@ -78,8 +78,8 @@ const checkFail = () => {
   if (ballY.get() >= 0 && ballY.getVelocity() !== 0 && ball.innerHTML !== 'Tap') {
     count = 0
     tween({
-      from: { borderWidth: 0, borderColor: 'rgb(255, 28, 104, 1)' },
-      to: { borderWidth: 30, borderColor: 'rgb(255, 28, 104, 0)' }
+      from: { borderWidth: 0, borderColor: 'rgb(255, 255 ,255, 1)' },
+      to: { borderWidth: 30, borderColor: 'rgb(0, 0, 255, 0)' }
     }).start(ballBorder)
 
     ball.innerHTML = 'Tap'
@@ -130,7 +130,7 @@ listen(ball, 'mousedown touchstart').start((e) => {
     .setVelocity(-mouseKick)
 
   tween({
-    from: { borderWidth: 0, borderColor: 'rgb(20, 215, 144, 1)' },
-    to: { borderWidth: 30, borderColor: 'rgb(20, 215, 144, 0)' }
+    from: { borderWidth: 0, borderColor: 'rgb(200, 21, 14, 1)' },
+    to: { borderWidth: 30, borderColor: 'rgb(200, 21, 14, 0)' }
   }).start(ballBorder)
 })

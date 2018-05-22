@@ -46,7 +46,7 @@ body {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background: var(--purple);
+  background: var(--green);
   display: flex;
   justify-content: center;
   align-items: center;
