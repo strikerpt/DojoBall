@@ -4,6 +4,6 @@ https://zuzu59.github.io/DojoBall/
 
 Il faut lancer le serveur avant !
 
-serverweb.sh
+./serverweb.sh
 
 
